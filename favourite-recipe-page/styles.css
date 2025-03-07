@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding-top: 16px;
+}
+
+main {
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+h2,
+h3 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+img {
+  display: block;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+figure {
+  margin-bottom: 32px;
+}
+
+.ingredients-list,
+.method-list {
+  margin-bottom: 64px;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  line-height: 28px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #2c605f;
+  padding: 16px 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  font-style: italic;
+}
