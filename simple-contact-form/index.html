@@ -3,14 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Contact Form</title>
   </head>
   <body>
     <form>
       <h1>Contact Us</h1>
 
+      <p>
+        Let's get this conversation started. Tell us a bit about yourself and
+        we'll get in touch as soon as we can.
+      </p>
+
       <fieldset>
-        <label for="name">First Name</label>
+        <label for="first-name">First Name</label>
         <input
           type="text"
           name="first-name"
@@ -18,7 +24,7 @@
           placeholder="John"
         />
 
-        <label for="name">Last Name</label>
+        <label for="last-name">Last Name</label>
         <input type="text" name="last-name" id="last-name" placeholder="Doe" />
 
         <label for="email">Email</label>
@@ -30,15 +36,17 @@
           required
         />
 
-        <label for="mailing-list">Join mailing list</label>
-        <input
-          type="checkbox"
-          name="mailing-list"
-          id="mailing-list"
-          value="join-mailing-list"
-        />
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Leave us a message"
+        ></textarea>
 
-        <button type="submit">Submit</button>
+        <label for="mailing-list">Join or mailing list</label>
+        <input type="checkbox" name="mailing-list" id="mailing-list" />
+
+        <button type="submit">Contact Sales</button>
       </fieldset>
     </form>
   </body>
