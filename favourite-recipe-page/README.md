@@ -31,6 +31,7 @@ The page is styled using basic **CSS** to enhance readability and presentation. 
 ## 📸 Preview
 
 ![Recipe Screenshot](images/screenshot-recipePage.png)
+![Recipe Screenshot](images/screenshot-recipePage2.png)
 
 ## 🔗 Resources
 
