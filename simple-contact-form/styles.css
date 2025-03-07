@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+form {
+  width: 87.5%;
+  max-width: 550px;
+  margin: 32px auto;
+}
+
+h1 {
+  color: #24484c;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  border: 1px solid #dfe1e3;
+  font-size: 16px;
+  background-color: #f8f9f9;
+  padding: 12px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+input#mailing-list {
+  margin-bottom: 16px;
+  width: auto;
+}
+
+button {
+  font-size: 16px;
+  color: white;
+  background-color: #24484c;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+}
