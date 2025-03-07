@@ -3,3 +3,4 @@ This repository includes both freeCodeCamp projects and personal projects that I
 # Personal Projects
 
 - 01 - Favorite Recipe Page
+- 02 - Simple Contact Form
