@@ -1,6 +1,6 @@
 # 🍽️ Favorite Recipe Page
 
-This is a simple HTML-only webpage that showcases a favorite recipe. The page includes an image, ingredients list, step-by-step instructions, and links for more information.
+This is a simple webpage that showcases a favorite recipe. The page includes an image, ingredients list, step-by-step instructions, and links for more information.
 
 ## 🛠 Features
 
@@ -9,8 +9,6 @@ This is a simple HTML-only webpage that showcases a favorite recipe. The page in
 - Lists **ingredients** using an unordered list (`<ul>`).
 - Shows **step-by-step instructions** using an ordered list (`<ol>`).
 - Includes a **link** to more information about the recipe.
-
-## 📂 File Structure
 
 ## 🚀 How to Use
 
