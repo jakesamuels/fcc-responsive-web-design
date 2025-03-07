@@ -18,6 +18,8 @@ This is a simple contact form that allows users to enter their first name, last 
 
 ## 📸 Preview
 
+![Contact Form Screenshot](images/screenshot.png)
+
 A basic HTML form with:
 
 - First name and last name fields.
@@ -25,8 +27,31 @@ A basic HTML form with:
 - A checkbox to join the mailing list.
 - A submit button.
 
+## 🎨 Basic CSS Styling
+
+The form is styled with simple, clean, and modern CSS.
+
+### Key Styling Features:
+
+- **Global styles**: Ensures all elements have consistent padding and margin with `box-sizing: border-box`.
+
+- **Form layout**: The form has a max width of 550px and is centered on the page.
+
+- **Typography**: Sans-serif font is used for a clean look, and the header has a specific color.
+
+- **Inputs and buttons**: Styled with light borders, padding, and background colors for a neat and modern appearance.
+
+- **Button**: The submit button is styled with a bold background color and text for clarity. Additionally, a hover effect is applied, changing the background color to a darker shade of the button’s original color, providing a visual cue for interactivity.
+
 ## 🔗 Resources
 
 - [HTML Form Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 - [HTML Input Types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 - [HTML Fieldset Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset)
+
+### CSS Resources:
+
+- [MDN CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
+- [CSS Colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+- [CSS Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
