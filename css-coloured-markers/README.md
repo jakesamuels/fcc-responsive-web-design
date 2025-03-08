@@ -31,7 +31,7 @@ The project applies various CSS techniques to style the markers:
 
 ## 📸 Preview
 
-(./images/screenshot.png)
+![Colour Marker Screenshot](images/screenshot.png)
 
 ## 🔗 Resources
 
