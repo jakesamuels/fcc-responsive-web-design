@@ -19,5 +19,3 @@ Stay tuned for more projects as I progress through the course! 🔥
 ---
 
 ## 📂 Project Structure
-
-Each project is contained in its own folder with an `index.html` file and supporting styles in `
