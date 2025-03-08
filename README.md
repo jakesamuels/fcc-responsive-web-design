@@ -4,3 +4,4 @@ This repository includes both freeCodeCamp projects and personal projects that I
 
 - 01 - Favorite Recipe Page
 - 02 - Simple Contact Form
+- 03 - CSS Colour Markers
