@@ -6,6 +6,10 @@ You can follow along and learn more about the certification [here](https://www.f
 
 ---
 
+## 🎓 Certification Projects
+
+1. **Survey Form** [freeCodeCamp - Build a Survey Form Project ](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
+
 ## 📌 Personal Projects
 
 A collection of projects to practice and apply **HTML** & **CSS** skills:
