@@ -6,7 +6,7 @@ This is a simple registration form that allows users to sign up by entering thei
 
 - Uses a `<form>` element to structure user input.
 
-I- ncludes **text inputs** for full name, email, and phone number.
+- Includes **text inputs** for full name, email, and phone number.
 
 - Provides a **password input** with validation for security.
 
