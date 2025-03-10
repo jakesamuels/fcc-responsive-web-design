@@ -7,9 +7,10 @@
     <title>Registration Form</title>
   </head>
   <body>
-    <h1>User Registration</h1>
+    <!-- <img src="./images/laptop.jpg" alt="Image of a laptop" /> -->
 
     <form>
+      <h1>Registration</h1>
       <fieldset>
         <label for="full-name">Full Name </label>
         <input type="text" name="full-name" id="full-name" required />
@@ -57,14 +58,6 @@
           id="profile-photo"
           accept="image/*"
         />
-
-        <label for="address">Address </label>
-        <textarea
-          name="address"
-          id="address"
-          placeholder="Please enter your adress"
-          required
-        ></textarea>
       </fieldset>
 
       <fieldset>
@@ -74,10 +67,16 @@
 
       <fieldset>
         <input type="checkbox" name="terms" id="terms" required />
-        <label for="terms">Accept <a href="/">Terms & Conditions</a></label>
+        <label class="inline" for="terms"
+          >Accept <a href="/">Terms & Conditions</a></label
+        >
       </fieldset>
 
       <button type="submit">Submit</button>
     </form>
+
+    <footer>
+      <p>&copy;JakeXCode</p>
+    </footer>
   </body>
 </html>
