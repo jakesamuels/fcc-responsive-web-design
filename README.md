@@ -18,5 +18,3 @@ A collection of projects to practice and apply **HTML** & **CSS** skills:
 Stay tuned for more projects as I progress through the course! 🔥
 
 ---
-
-## 📂 Project Structure
