@@ -10,10 +10,10 @@ You can follow along and learn more about the certification [here](https://www.f
 
 A collection of projects to practice and apply **HTML** & **CSS** skills:
 
-1️⃣ **Favorite Recipe Page** – A simple webpage showcasing a favorite recipe with structured content and styling. 🍽️  
-2️⃣ **Simple Contact Form** – A basic and accessible contact form with clean input fields. ✉️  
-3️⃣ **CSS Colour Markers** – A visually appealing project demonstrating color selection and gradients. 🎨
-4️⃣ **Registration Form** – A frontend-only registration demonstrating multiple input field types. 📝
+1. **Favorite Recipe Page** – A simple webpage showcasing a favorite recipe with structured content and styling. 🍽️
+2. **Simple Contact Form** – A basic and accessible contact form with clean input fields. ✉️
+3. **CSS Colour Markers** – A visually appealing project demonstrating color selection and gradients. 🎨
+4. **Registration Form** – A frontend-only registration demonstrating multiple input field types. 📝
 
 Stay tuned for more projects as I progress through the course! 🔥
 
