@@ -2,7 +2,7 @@
 
 The Health Survey Form was created as part of a certification project for **freeCodeCamp**.
 
-It meets all required criteria, including a title **(h1)** with an ID of title and a brief description (p) with an ID of description. The form **(id="survey-form")** includes labeled input fields for name, email, and age, with proper HTML5 validation for incorrect formats. A dropdown menu **(id="dropdown")** allows users to select an option, while radio buttons and checkboxes enable multiple-choice responses. A textarea is provided for additional comments, and a submit button **(id="submit")** finalizes the form submission. The project ensures accessibility, usability, and validation compliance.
+It meets all required criteria, including a title **(h1)** with an ID of title and a brief description **(p)** with an ID of description. The form **(id="survey-form")** includes labeled input fields for name, email, and age, with proper HTML5 validation for incorrect formats. A dropdown menu **(id="dropdown")** allows users to select an option, while radio buttons and checkboxes enable multiple-choice responses. A textarea is provided for additional comments, and a submit button **(id="submit")** finalizes the form submission. The project ensures accessibility, usability, and validation compliance.
 
 [freeCodeCamp - Build a Survey Form Project ](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
 
