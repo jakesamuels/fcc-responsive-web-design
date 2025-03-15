@@ -7,115 +7,139 @@
     <title>Simple Blog Page</title>
   </head>
   <body>
-    <header>
-      <h1>Introduction to Elementary Set Theory</h1>
-      <img src="./images/header-img.png" alt="" />
-    </header>
+    <main>
+      <header>
+        <h1>Introduction to Elementary Set Theory</h1>
+        <figure>
+          <img src="./images/header-img.png" alt="" />
+          <figcaption>
+            Image by
+            <a href="https://www.geeksforgeeks.org/set-theory/" target="_blank"
+              >geeksforgeeks</a
+            >
+          </figcaption>
+        </figure>
+      </header>
 
-    <section class="intro">
-      <h2>What is Set Theory?</h2>
+      <section id="intro">
+        <h2>What is Set Theory?</h2>
 
-      <p>
-        Set theory is the branch of mathematics that deals with the study of
-        sets, which are collections of objects. These objects, called elements
-        or members, can be anything: numbers, letters, or even other sets. Set
-        theory provides the foundation for many areas of mathematics, including
-        algebra, topology, and logic.
-      </p>
-    </section>
+        <p>
+          Set theory is the branch of mathematics that deals with the study of
+          sets, which are collections of objects. These objects, called elements
+          or members, can be anything: numbers, letters, or even other sets. Set
+          theory provides the foundation for many areas of mathematics,
+          including algebra, topology, and logic.
+        </p>
+      </section>
 
-    <section>
-      <h3>Basic Concepts of Set Theory</h3>
+      <section id="basic-concepts">
+        <h3>Basic Concepts of Set Theory</h3>
 
-      <ol>
-        <li>
-          Definition of a Set
-          <p>
-            A set is simply a well-defined collection of distinct objects. Sets
-            are usually denoted by capital letters, and their elements are
-            listed inside curly brackets {}.
-          </p>
-          <dl>
-            <dt>Example:</dt>
-            <dd>A = {1,2,3,4,5}</dd>
-            <dd>B = {a,b,c,d}</dd>
-          </dl>
-        </li>
+        <ol>
+          <li>
+            <span class="list-heading">Definition of a Set</span>
+            <p>
+              A set is simply a well-defined collection of distinct objects.
+              Sets are usually denoted by capital letters, and their elements
+              are listed inside curly brackets {}.
+            </p>
 
-        <li>
-          Ways to Represent Sets
-          <dl>
-            <dt>There are three common ways to represent a set:</dt>
-            <dd>
-              <strong>Roster Form:</strong> Listing out all elements explicitly.
-              Example: A = {2,4,6,8}.
-            </dd>
-            <dd>
-              <strong>Set-Builder Notation:</strong> Describing the properties
-              of elements. Example: A = {x ∣ x is an even number less than 10}.
-            </dd>
-            <dd>
-              <strong>Venn Diagrams:</strong> A graphical representation using
-              circles to show relationships between sets.
-            </dd>
-          </dl>
-        </li>
+            <div class="example">
+              <em>Example:</em>
+              <p>A = {1,2,3,4,5}</p>
+              <p>B = {a,b,c,d}</p>
+            </div>
+          </li>
 
-        <li>
-          Types of Sets
-          <ul>
-            <li>
-              <strong>Empty Set (∅ or {}):</strong> A set with no elements.
-              Example: The set of prime numbers divisible by 10.
-            </li>
-            <li>
-              <strong>Finite and Infinite Sets:</strong> A set with a countable
-              number of elements is finite; otherwise, it’s infinite. Example:
-              The set of natural numbers (𝑁) is infinite.
-            </li>
-            <li>
-              <strong>Subset (⊆):</strong> A set A is a subset of B if all
-              elements of A are in B.
-            </li>
-            <li>
-              <strong>Universal Set (U):</strong> The set containing all
-              elements under consideration.
-            </li>
-          </ul>
-        </li>
+          <li>
+            <span class="list-heading">Ways to Represent Sets</span>
+            <dl>
+              <dt>There are three common ways to represent a set:</dt>
+              <dd>
+                <strong>Roster Form:</strong> Listing out all elements
+                explicitly.
+                <div class="example"><em>Example:</em> A = {2,4,6,8}.</div>
+              </dd>
+              <dd>
+                <strong>Set-Builder Notation:</strong> Describing the properties
+                of elements.
+                <div class="example">
+                  <em>Example:</em> A = {x ∣ x is an even number less than 10}.
+                </div>
+              </dd>
+              <dd>
+                <strong>Venn Diagrams:</strong> A graphical representation using
+                circles to show relationships between sets.
 
-        <li>
-          Set Operations
-          <p>Set theory involves several operations:</p>
-          <ul>
-            <li>
-              <strong>Union (A ∪ B):</strong> The set of all elements in either
-              A or B or both.
-            </li>
-            <li>
-              <strong>Intersection (A ∩ B):</strong> The set of elements common
-              to both A and B.
-            </li>
-            <li>
-              <strong>Difference (A - B):</strong> The set of elements in A but
-              not in B.
-            </li>
-            <li>
-              <strong>Complement (A<sup>c</sup>):</strong> The set of all
-              elements not in A.
-            </li>
-          </ul>
-          <img
-            src="./images/venn.png"
-            alt="Venn diagram showing set operations"
-          />
-        </li>
-      </ol>
-    </section>
+                <img
+                  src="./images/venn.webp"
+                  alt="Venn diagrams"
+                  class="img__venn-diagrams"
+                />
+              </dd>
+            </dl>
+          </li>
 
-    <section>
-      <h4>Why is Set Theory Important?</h4>
-      <section>
+          <li>
+            <span class="list-heading">Types of Sets</span>
+            <ul>
+              <li>
+                <strong>Empty Set (∅ or {}):</strong> A set with no elements.
+                <div class="example">
+                  <em>Example:</em> The set of prime numbers divisible by 10.
+                </div>
+              </li>
+              <li>
+                <strong>Finite and Infinite Sets:</strong> A set with a
+                countable number of elements is finite; otherwise, it’s
+                infinite.
+                <div class="example">
+                  <em>Example:</em> The set of natural numbers (𝑁) is infinite.
+                </div>
+              </li>
+              <li>
+                <strong>Subset (⊆):</strong> A set A is a subset of B if all
+                elements of A are in B.
+              </li>
+              <li>
+                <strong>Universal Set (U):</strong> The set containing all
+                elements under consideration.
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <span class="list-heading">Set Operations</span>
+            <p>Set theory involves several operations:</p>
+            <ul>
+              <li>
+                <strong>Union (A ∪ B):</strong> The set of all elements in
+                either A or B or both.
+              </li>
+              <li>
+                <strong>Intersection (A ∩ B):</strong> The set of elements
+                common to both A and B.
+              </li>
+              <li>
+                <strong>Difference (A - B):</strong> The set of elements in A
+                but not in B.
+              </li>
+              <li>
+                <strong>Complement (A<sup>c</sup>):</strong> The set of all
+                elements not in A.
+              </li>
+            </ul>
+            <img
+              src="./images/operations.png"
+              alt="Venn diagram showing set operations"
+              class="img__set-operations"
+            />
+          </li>
+        </ol>
+      </section>
+
+      <section id="set-theory-importance">
         <h4>Why is Set Theory Important?</h4>
         <p>
           Set theory is fundamental to many areas of mathematics and has a
@@ -143,64 +167,64 @@
           various domains.
         </p>
       </section>
-    </section>
 
-    <section id="further-reading">
-      <h2>Further Reading & References</h2>
+      <section id="further-reading">
+        <h2>Further Reading & References</h2>
 
-      <h3>Online Courses</h3>
-      <ul>
-        <li>
-          <a href="https://www.coursera.org/" target="_blank"
-            >Introduction to Set Theory – Coursera</a
-          >
-          (Search for "Set Theory" in their catalog)
-        </li>
-        <li>
-          <a
-            href="https://www.khanacademy.org/computing/computer-science/cryptography/discrete-mathematics/a/sets-and-set-notation"
-            target="_blank"
-            >Discrete Mathematics – Khan Academy</a
-          >
-        </li>
-        <li>
-          <a href="https://ocw.mit.edu/courses/mathematics/" target="_blank"
-            >MIT OpenCourseWare – Discrete Mathematics</a
-          >
-        </li>
-      </ul>
+        <h3>Online Courses</h3>
+        <ul>
+          <li>
+            <a href="https://www.coursera.org/" target="_blank"
+              >Introduction to Set Theory – Coursera</a
+            >
+            (Search for "Set Theory" in their catalog)
+          </li>
+          <li>
+            <a
+              href="https://www.khanacademy.org/computing/computer-science/cryptography/discrete-mathematics/a/sets-and-set-notation"
+              target="_blank"
+              >Discrete Mathematics – Khan Academy</a
+            >
+          </li>
+          <li>
+            <a href="https://ocw.mit.edu/courses/mathematics/" target="_blank"
+              >MIT OpenCourseWare – Discrete Mathematics</a
+            >
+          </li>
+        </ul>
 
-      <h3>Books on Set Theory</h3>
-      <ul>
-        <li><strong>"Naïve Set Theory"</strong> by Paul R. Halmos</li>
-        <li><strong>"Set Theory and Logic"</strong> by Robert R. Stoll</li>
-        <li>
-          <strong>"Elements of Set Theory"</strong> by Herbert B. Enderton
-        </li>
-      </ul>
+        <h3>Books on Set Theory</h3>
+        <ul>
+          <li><strong>"Naïve Set Theory"</strong> by Paul R. Halmos</li>
+          <li><strong>"Set Theory and Logic"</strong> by Robert R. Stoll</li>
+          <li>
+            <strong>"Elements of Set Theory"</strong> by Herbert B. Enderton
+          </li>
+        </ul>
 
-      <h3>Research Papers & Academic References</h3>
-      <ul>
-        <li>
-          <strong>"Axiomatic Set Theory"</strong> by Patrick Suppes (Available
-          on JSTOR and other academic databases)
-        </li>
-        <li>
-          <strong>Cantor’s Original Paper on Set Theory</strong>:
-          <em
-            >"Contributions to the Founding of the Theory of Transfinite
-            Numbers"</em
-          >
-          by Georg Cantor
-        </li>
-        <li>
-          <a
-            href="https://plato.stanford.edu/entries/set-theory/"
-            target="_blank"
-            >Stanford Encyclopedia of Philosophy – Set Theory</a
-          >
-        </li>
-      </ul>
-    </section>
+        <h3>Research Papers & Academic References</h3>
+        <ul>
+          <li>
+            <strong>"Axiomatic Set Theory"</strong> by Patrick Suppes (Available
+            on JSTOR and other academic databases)
+          </li>
+          <li>
+            <strong>Cantor’s Original Paper on Set Theory</strong>:
+            <em
+              >"Contributions to the Founding of the Theory of Transfinite
+              Numbers"</em
+            >
+            by Georg Cantor
+          </li>
+          <li>
+            <a
+              href="https://plato.stanford.edu/entries/set-theory/"
+              target="_blank"
+              >Stanford Encyclopedia of Philosophy – Set Theory</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
