@@ -6,4 +6,203 @@
 
 body {
   font-family: sans-serif;
+  color: #1b3848;
+  background-color: #f9f5f5;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1 {
+  margin-bottom: 2rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.75rem;
+}
+
+/* a {
+  color: #40afc2;
+} */
+
+.list-heading {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+/* ===== IMAGES ===== */
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+header img {
+  margin-bottom: 0.25rem;
+}
+
+img.img__venn-diagrams,
+img.img__set-operations {
+  margin-top: 2rem;
+}
+
+/* ===== LAYOUT ===== */
+
+main {
+  width: 87.2%;
+  max-width: 34.375rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+ol li {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+ol li:last-of-type,
+ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+dl dt {
+  margin-bottom: 0.75rem;
+}
+
+dl dd {
+  margin-bottom: 1rem;
+}
+
+/* ==========
+ HEADER
+ ========== */
+header {
+  margin-bottom: 2rem;
+}
+
+header figcaption {
+  font-size: 0.625rem;
+  text-align: right;
+}
+
+/* ==========
+ EXAMPLE CONTAINER
+ ========== */
+.example {
+  background-color: rgb(187, 242, 233);
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1.5rem auto;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.example em {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.example p {
+  margin-bottom: 0.5rem;
+}
+
+/* ==========
+ SECTION - BASIC CONCEPTS
+ ========== */
+#set-theory-importance p {
+  margin-bottom: 1.5rem;
+}
+
+#set-theory-importance p:last-of-type {
+  margin-bottom: 0;
+}
+
+#further-reading ul {
+  margin-bottom: 2rem;
+}
+
+#further-reading ul:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 48rem) {
+  main {
+    padding: 2rem 0rem;
+    width: 89.7135416667%;
+    max-width: 48rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  .example {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  main {
+    padding: 4rem 0rem;
+    width: 77.0833333333%;
+    max-width: 69.375rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  ol li,
+  ul li {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  dt {
+    margin-bottom: 0.5rem;
+  }
+
+  em,
+  strong,
+  .list-heading {
+    font-size: 20px;
+  }
+
+  .example {
+    padding: 3rem 2rem;
+  }
 }
