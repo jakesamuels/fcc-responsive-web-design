@@ -102,3 +102,41 @@ button.btn__read-more:hover ~ button.btn__subscribe {
   color: #8448a7;
   background-color: #fff;
 }
+
+@media (min-width: 48rem) {
+  .container {
+    flex-direction: row;
+    width: 89.7135416667%;
+    max-width: 48rem;
+    flex-wrap: wrap;
+    gap: 2rem 0;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 49%;
+  }
+}
+
+@media (min-width: 90rem) {
+  .container {
+    width: 77.0833333333%;
+    max-width: 69.375rem;
+    gap: 3rem 0;
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  .user-name {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  .bio {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+}
