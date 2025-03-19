@@ -28,9 +28,9 @@ A simple, stylish, and responsive profile card component built with **HTML** and
 
 ## 📱 Responsive Design
 
--✔️ **Mobile First Approach** – Stacks cards in a single column for smaller screens.
-✔️ **Tablet View (768px+)** – Displays two cards side by side.
-✔️ **Desktop View (1440px+)** – Shows up to three cards in a row.
+- ✔️ **Mobile First Approach** – Stacks cards in a single column for smaller screens.
+- ✔️ **Tablet View (768px+)** – Displays two cards side by side.
+- ✔️ **Desktop View (1440px+)** – Shows up to three cards in a row.
 
 ## 🎯 How to Customize
 
